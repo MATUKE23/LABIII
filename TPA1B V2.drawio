@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T02:27:12.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="JU988hWXKd-N55j2EGYT" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T03:06:59.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="AiWu1YcGd8l3UE8wW5oR" version="17.4.3" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="1093" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1558" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="y2i91cYPlv53iorKBUYe-18" value="ALUMNOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="321" width="140" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="y2i91cYPlv53iorKBUYe-19" value="PK    IDALUMNO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-18">
+        <mxCell id="y2i91cYPlv53iorKBUYe-19" value="PK   IDALUMNO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-18">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="y2i91cYPlv53iorKBUYe-20" value="        APELLIDO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-18">
@@ -54,19 +54,19 @@
         <mxCell id="y2i91cYPlv53iorKBUYe-31" value="        DESC MATERIA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-29">
           <mxGeometry y="46" width="140" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="y2i91cYPlv53iorKBUYe-39" value="PK   IDEXAMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-29">
+        <mxCell id="y2i91cYPlv53iorKBUYe-39" value="FK    IDEXAMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-29">
           <mxGeometry y="80" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="y2i91cYPlv53iorKBUYe-33" value="MATERIAxALUMNOSxFECHA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="380" width="180" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="y2i91cYPlv53iorKBUYe-34" value="FK    IDALUMNO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-33">
+        <mxCell id="y2i91cYPlv53iorKBUYe-34" value="PK y FK    IDALUMNO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-33">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="y2i91cYPlv53iorKBUYe-35" value="FK    IDMATERIA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-33">
+        <mxCell id="y2i91cYPlv53iorKBUYe-35" value="PK y FK    IDMATERIA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-33">
           <mxGeometry y="52" width="180" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="y2i91cYPlv53iorKBUYe-42" value="FECHA_EXAMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-33">
+        <mxCell id="y2i91cYPlv53iorKBUYe-42" value="PK y FK    FECHA_EXAMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="y2i91cYPlv53iorKBUYe-33">
           <mxGeometry y="80" width="180" height="28" as="geometry" />
         </mxCell>
         <mxCell id="y2i91cYPlv53iorKBUYe-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y2i91cYPlv53iorKBUYe-34" target="y2i91cYPlv53iorKBUYe-19">
